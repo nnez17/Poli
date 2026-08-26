@@ -49,6 +49,7 @@
     const reveal = new Reveal({
       hash: true,
       progress: true,
+      controls: false,
       transition: 'fade',
       transitionSpeed: 'default',
       width: 1280,
