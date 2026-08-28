@@ -23,11 +23,8 @@
             </div>`}
             <div class="chrome-right">
               <span class="page-num">${num} / ${String(total).padStart(2, '0')}</span>
-              <button class="fs-btn" title="Layar penuh (F)" aria-label="Alihkan layar penuh"><i data-lucide="maximize"></i></button>
             </div>`;
           section.appendChild(top);
-
-          top.querySelector('.fs-btn').addEventListener('click', toggleFullscreen);
         }
 
         if (mode === 'full') {
