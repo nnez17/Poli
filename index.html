@@ -203,50 +203,59 @@
       </section>
 
       <!-- ==================================================
-           SLIDE 04 — USER PERSONA (WARGA & ADMIN)
+           SLIDE 04 — USER PERSONA (WARGA)
            ================================================== -->
-      <section data-chrome="full" aria-label="User persona">
+      <section data-chrome="full" aria-label="User persona warga">
         <div class="slide-shell">
           <div class="anim mb-3">
             <span class="section-label">User Persona</span>
-            <h1 class="font-display text-[28px] leading-[1.2] font-bold tracking-[-0.5px] text-ink mt-1.5">Siapa yang menggunakan LaporWarga?</h1>
+            <h1 class="font-display text-[30px] leading-[1.2] font-bold tracking-[-0.5px] text-ink mt-1.5">Warga sebagai pelapor masalah</h1>
           </div>
 
-          <div class="flex-1 min-h-0 grid grid-cols-2 grid-rows-[minmax(0,1fr)] gap-x-10 gap-y-4">
-            <div class="[container-type:size] flex items-center justify-center anim-scale anim d1">
-              <div class="relative bg-white border-[2.5px] border-line rounded-2xl shadow-[0_6px_0_#D5E3DF] p-3">
-                <img src="public/Warga%20Persona.png" alt="User persona warga — pelapor" style="width: min(100cqw, 177.6cqh); height: auto;" class="block rounded-lg" />
-              </div>
-            </div>
-            <div class="[container-type:size] flex items-center justify-center anim-scale anim d2">
-              <div class="relative bg-white border-[2.5px] border-line rounded-2xl shadow-[0_6px_0_#D5E3DF] p-3">
-                <img src="public/Admin%20Persona.png" alt="User persona admin — pengelola" style="width: min(100cqw, 177.9cqh); height: auto;" class="block rounded-lg" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-            <!-- ==================================================
-           SLIDE 05 — ARSITEKTUR INFORMASI
-           ================================================== -->
-      <section data-chrome="full" aria-label="Arsitektur informasi">
-        <div class="slide-shell">
-          <div class="anim mb-4">
-            <span class="section-label">Arsitektur Informasi</span>
-            <h1 class="font-display text-[34px] leading-[1.22] font-bold tracking-[-0.5px] text-ink mt-2.5">Menyederhanakan struktur pengalaman pengguna</h1>
-          </div>
-
-          <div class="flex-1 min-h-0 flex items-center justify-center [container-type:size]">
-            <div class="relative bg-white border-[2.5px] border-line rounded-2xl shadow-[0_6px_0_#D5E3DF] p-2 flex items-center justify-center overflow-hidden anim-scale anim d1" style="height: calc(100cqh - 36px);">
-              <img src="public/Information%20Architecture.png" alt="Diagram Arsitektur Informasi LaporWarga" style="max-height: 100%; width: auto;" class="object-contain rounded-lg" />
+          <div class="flex-1 min-h-0 [container-type:size] flex items-center justify-center">
+            <div class="relative bg-white border-[2.5px] border-line rounded-2xl shadow-[0_6px_0_#D5E3DF] p-3 anim-scale anim d1">
+              <img src="public/Warga%20Persona.png" alt="User persona warga — pelapor" style="width: min(100cqw, 177.6cqh); height: auto;" class="block rounded-lg" />
             </div>
           </div>
         </div>
       </section>
 
       <!-- ==================================================
-           SLIDE 06 — WIREFRAME LOW FIDELITY
+           SLIDE 05 — ADMIN PERSONA
+           ================================================== -->
+      <section data-chrome="full" aria-label="Admin persona">
+        <div class="slide-shell">
+          <div class="anim mb-3">
+            <span class="section-label">Admin Persona</span>
+            <h1 class="font-display text-[30px] leading-[1.2] font-bold tracking-[-0.5px] text-ink mt-1.5">Admin sebagai pengelola laporan</h1>
+          </div>
+
+          <div class="flex-1 min-h-0 [container-type:size] flex items-center justify-center">
+            <div class="relative bg-white border-[2.5px] border-line rounded-2xl shadow-[0_6px_0_#D5E3DF] p-3 anim-scale anim d1">
+              <img src="public/Admin%20Persona.png" alt="Admin persona — pengelola laporan" style="width: min(100cqw, 177.9cqh); height: auto;" class="block rounded-lg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================
+           SLIDE 06 — INFORMATION ARCHITECTURE (IA)
+           ================================================== -->
+      <section data-chrome="full" aria-label="Information Architecture (IA)">
+        <div class="slide-shell">
+          <div class="anim mb-4">
+            <span class="section-label">Information Architecture (IA)</span>
+            <h1 class="font-display text-[34px] leading-[1.22] font-bold tracking-[-0.5px] text-ink mt-2.5">Menyederhanakan struktur pengalaman pengguna</h1>
+          </div>
+
+          <div class="flex-1 min-h-0 flex items-center justify-center [container-type:size]">
+            <img src="public/Information%20Architecture.png" alt="Diagram Information Architecture LaporWarga" style="width: min(100cqw, 145cqh); height: auto;" class="object-contain anim-scale anim d1" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================
+           SLIDE 07 — WIREFRAME LOW FIDELITY
            ================================================== -->
       <section data-chrome="full" aria-label="Wireframe low fidelity">
         <div class="slide-shell">
@@ -254,12 +263,12 @@
             <span class="section-label">Wireframe Lo-Fi</span>
             <h1 class="font-display text-[34px] leading-[1.22] font-bold tracking-[-0.5px] text-ink mt-2.5">Kami mulai dari <span class="text-brand">struktur</span>, bukan warna</h1>
             <p class="text-[13px] text-mute mt-2 max-w-[820px] leading-[1.55]">
-              Wireframe low-fidelity adalah sketsa dasar kerangka halaman yang menampilkan tata letak, urutan konten, dan alur navigasi tanpa detail visual, untuk memvalidasi struktur sebelum masuk ke tahap visual dengan mencakup halaman <i>Beranda</i>, <i>Login</i>, <i>Register</i>, <i>Laporan</i>, <i>Profil</i>, dan <i>Dashboard Admin</i>.
+              Wireframe low-fidelity memvalidasi struktur alur utama yang kemudian dikembangkan menjadi UI Design: <i>Home</i>, <i>Ajukan Laporan</i>, <i>Laporan</i>, <i>Profile</i>, hingga <i>Dashboard Admin</i>.
             </p>
           </div>
 
           <div class="flex-1 min-h-0 flex flex-col gap-4">
-            <div class="grid grid-cols-3 gap-4 flex-1 min-h-0">
+            <div class="grid grid-cols-[1.15fr_1fr_1fr] gap-4 flex-1 min-h-0">
               <div class="browser-frame relative h-full anim-scale anim d1">
                 <div class="h-8 flex-none flex items-center gap-1.5 px-3 bg-[#F0F6F4] border-b border-[var(--border)]">
                   <span class="browser-dots"><i></i><i></i><i></i></span>
@@ -270,34 +279,27 @@
               <div class="browser-frame relative h-full anim-scale anim d2">
                 <div class="h-8 flex-none flex items-center gap-1.5 px-3 bg-[#F0F6F4] border-b border-[var(--border)]">
                   <span class="browser-dots"><i></i><i></i><i></i></span>
-                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium">Login</span>
+                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium">Ajukan Laporan</span>
                 </div>
-                <div class="browser-body"><img src="public/Login.png" alt="Wireframe lo-fi halaman masuk" /></div>
+                <div class="browser-body"><img class="crop-form" src="public/Home.png" alt="Wireframe lo-fi formulir ajukan laporan" /></div>
               </div>
               <div class="browser-frame relative h-full anim-scale anim d3">
-                <div class="h-8 flex-none flex items-center gap-1.5 px-3 bg-[#F0F6F4] border-b border-[var(--border)]">
-                  <span class="browser-dots"><i></i><i></i><i></i></span>
-                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium">Register</span>
-                </div>
-                <div class="browser-body"><img src="public/Register.png" alt="Wireframe lo-fi halaman daftar" /></div>
-              </div>
-            </div>
-            <div class="grid grid-cols-3 gap-4 flex-1 min-h-0">
-              <div class="browser-frame relative h-full anim-scale anim d4">
                 <div class="h-8 flex-none flex items-center gap-1.5 px-3 bg-[#F0F6F4] border-b border-[var(--border)]">
                   <span class="browser-dots"><i></i><i></i><i></i></span>
                   <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium">Laporan</span>
                 </div>
                 <div class="browser-body"><img src="public/Laporan.png" alt="Wireframe lo-fi halaman laporan" /></div>
               </div>
-              <div class="browser-frame relative h-full anim-scale anim d5">
+            </div>
+            <div class="grid grid-cols-2 gap-4 flex-1 min-h-0">
+              <div class="browser-frame relative h-full anim-scale anim d4">
                 <div class="h-8 flex-none flex items-center gap-1.5 px-3 bg-[#F0F6F4] border-b border-[var(--border)]">
                   <span class="browser-dots"><i></i><i></i><i></i></span>
                   <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium">Profile</span>
                 </div>
-                <div class="browser-body"><img src="public/Profile.png" alt="Wireframe lo-fi halaman profil" /></div>
+                <div class="browser-body"><img class="crop-profile" src="public/Profile.png" alt="Wireframe lo-fi halaman profil" /></div>
               </div>
-              <div class="browser-frame relative h-full anim-scale anim d3">
+              <div class="browser-frame relative h-full anim-scale anim d5">
                 <div class="h-8 flex-none flex items-center gap-1.5 px-3 bg-[#F0F6F4] border-b border-[var(--border)]">
                   <span class="browser-dots"><i></i><i></i><i></i></span>
                   <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium">Admin</span>
@@ -310,7 +312,7 @@
       </section>
 
       <!-- ==================================================
-           SLIDE 07 — PROTOTIPE HIGH FIDELITY
+           SLIDE 08 — PROTOTIPE HIGH FIDELITY
            ================================================== -->
       <section data-chrome="full" aria-label="Prototipe high fidelity">
         <div class="slide-shell !pt-[60px]">
@@ -320,6 +322,18 @@
             <p class="text-[13px] text-mute mt-2 max-w-[820px] leading-[1.55]">
               UI Design atau prototipe high-fidelity adalah representasi visual akhir sebuah tampilan yang sudah menerapkan warna, tipografi, ikon, ilustrasi, dan komponen interaktif secara realistis sehingga menampilkan hasil akhir antarmuka LaporWarga dari <i>Beranda</i>, formulir <i>Buat Laporan</i>, detail laporan dengan timeline status, <i>Profil</i>, hingga <i>Dashboard Admin</i>.
             </p>
+            <div class="prototype-links anim d1" aria-label="Link prototype interaktif">
+              <a href="https://www.figma.com/proto/EuZUHECe2NfstARm1ohPyC/LaporWarga?node-id=180-80&viewport=79%2C627%2C0.35&t=cyBsVyNcuXjApV8A-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=180%3A80&show-proto-sidebar=1&page-id=0%3A1" target="_blank" rel="noopener">
+                <i data-lucide="play" class="w-3.5 h-3.5"></i>
+                <span>Prototype User</span>
+                <i data-lucide="external-link" class="prototype-link-arrow"></i>
+              </a>
+              <a href="https://www.figma.com/proto/EuZUHECe2NfstARm1ohPyC/LaporWarga?node-id=640-578&viewport=79%2C627%2C0.35&t=cyBsVyNcuXjApV8A-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=640%3A578&show-proto-sidebar=1&page-id=0%3A1" target="_blank" rel="noopener">
+                <i data-lucide="layout-dashboard" class="w-3.5 h-3.5"></i>
+                <span>Prototype Admin</span>
+                <i data-lucide="external-link" class="prototype-link-arrow"></i>
+              </a>
+            </div>
           </div>
 
           <div class="flex-1 min-h-0 flex flex-col gap-4">
@@ -327,7 +341,7 @@
               <div class="browser-frame relative h-full anim-scale anim d1">
                 <div class="h-8 flex-none flex items-center gap-1.5 px-3 bg-[#F0F6F4] border-b border-[var(--border)]">
                   <span class="browser-dots"><i></i><i></i><i></i></span>
-                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium"><i data-lucide="map-pin" class="w-2.5 h-2.5"></i>laporwarga.id</span>
+                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium"><i data-lucide="map-pin" class="w-2.5 h-2.5"></i>Home</span>
                 </div>
                 <div class="browser-body">
                   <img src="public/Beranda%20-%20User.png" alt="Halaman beranda LaporWarga" />
@@ -336,7 +350,7 @@
               <div class="browser-frame relative h-full anim-scale anim d2">
                 <div class="h-8 flex-none flex items-center gap-1.5 px-3 bg-[#F0F6F4] border-b border-[var(--border)]">
                   <span class="browser-dots"><i></i><i></i><i></i></span>
-                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium"><i data-lucide="map-pin" class="w-2.5 h-2.5"></i>laporwarga.id/buat-laporan</span>
+                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium"><i data-lucide="map-pin" class="w-2.5 h-2.5"></i>Ajukan Laporan</span>
                 </div>
                 <div class="browser-body">
                   <img class="crop-form" src="public/Beranda%20-%20User.png" alt="Formulir pengajuan laporan LaporWarga" />
@@ -345,7 +359,7 @@
               <div class="browser-frame relative h-full anim-scale anim d3">
                 <div class="h-8 flex-none flex items-center gap-1.5 px-3 bg-[#F0F6F4] border-b border-[var(--border)]">
                   <span class="browser-dots"><i></i><i></i><i></i></span>
-                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium"><i data-lucide="map-pin" class="w-2.5 h-2.5"></i>laporwarga.id/laporan</span>
+                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium"><i data-lucide="map-pin" class="w-2.5 h-2.5"></i>Laporan</span>
                 </div>
                 <div class="browser-body">
                   <img src="public/Laporan%20-%20User%203.png" alt="Detail laporan dengan timeline status" />
@@ -356,7 +370,7 @@
               <div class="browser-frame relative h-full anim-scale anim d4">
                 <div class="h-8 flex-none flex items-center gap-1.5 px-3 bg-[#F0F6F4] border-b border-[var(--border)]">
                   <span class="browser-dots"><i></i><i></i><i></i></span>
-                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium"><i data-lucide="map-pin" class="w-2.5 h-2.5"></i>laporwarga.id/profil</span>
+                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium"><i data-lucide="map-pin" class="w-2.5 h-2.5"></i>Profile</span>
                 </div>
                 <div class="browser-body">
                   <img class="crop-profile" src="public/Profil.png" alt="Profil warga dengan daftar status laporan" />
@@ -365,7 +379,7 @@
               <div class="browser-frame relative h-full anim-scale anim d5">
                 <div class="h-8 flex-none flex items-center gap-1.5 px-3 bg-[#F0F6F4] border-b border-[var(--border)]">
                   <span class="browser-dots"><i></i><i></i><i></i></span>
-                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium"><i data-lucide="map-pin" class="w-2.5 h-2.5"></i>laporwarga.id/admin</span>
+                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium"><i data-lucide="map-pin" class="w-2.5 h-2.5"></i>Admin</span>
                 </div>
                 <div class="browser-body">
                   <img src="public/Admin%20Dashboard.png" alt="Dashboard admin untuk verifikasi dan tindak lanjut" />
@@ -377,7 +391,7 @@
       </section>
 
       <!-- ==================================================
-           SLIDE 08 — ALUR PENGGUNA
+           SLIDE 09 — ALUR PENGGUNA
            ================================================== -->
       <section data-chrome="full" aria-label="Alur pengguna">
         <div class="slide-shell">
@@ -415,19 +429,9 @@
               </div>
             </div>
 
-            <!-- penghubung turun tepat di bawah kolom 5 -->
-            <div class="flex items-center justify-between gap-2 anim d2 pointer-events-none">
-              <div class="flex-1"></div>
-              <div class="flex-1"></div>
-              <div class="flex-1"></div>
-              <div class="flex-1"></div>
-              <div class="flex-1"></div>
-              <div class="flex-1"></div>
-              <div class="flex-1"></div>
-              <div class="flex-1"></div>
-              <div class="flex-1 flex justify-center items-center">
-                <span class="flow-arrow down"><span class="fa-line"></span></span>
-              </div>
+            <!-- penghubung turun tepat di bawah Detail + foto -->
+            <div class="flow-connector-row anim d2 pointer-events-none">
+              <span class="flow-arrow down"><span class="fa-line"></span></span>
             </div>
 
             <!-- baris 2: kanan → kiri (6-10) dengan panah menunjuk ke kiri -->
@@ -473,7 +477,7 @@
       </section>
 
       <!-- ==================================================
-           SLIDE 09 — KEUNGGULAN DAN GIMIK DESAIN
+           SLIDE 10 — KEUNGGULAN DAN GIMIK DESAIN
            ================================================== -->
       <section data-chrome="full" aria-label="Keunggulan dan inovasi">
         <div class="slide-shell">
@@ -512,7 +516,7 @@
       </section>
 
       <!-- ==================================================
-           SLIDE 10 — DAMPAK DAN MANFAAT BAGI PENGGUNA
+           SLIDE 11 — DAMPAK DAN MANFAAT BAGI PENGGUNA
            ================================================== -->
       <section data-chrome="full" aria-label="Dampak dan manfaat">
         <div class="slide-shell">
@@ -561,61 +565,19 @@
       </section>
 
       <!-- ==================================================
-           SLIDE 11 — DEMO & PENUTUP
+           SLIDE 12 — PENUTUP
            ================================================== -->
-      <section data-chrome="top" aria-label="Demo dan penutup">
-        <div class="slide-shell">
-          <div class="flex-1 min-h-0 grid grid-cols-[400px_1fr] gap-12 items-center">
-            <div>
-              <span class="section-label anim">Demo</span>
-              <h1 class="anim d1 font-display text-[40px] leading-[1.15] font-bold tracking-[-0.5px] text-ink mt-2.5">Mari lihat langsung <span class="text-brand">aksinya</span></h1>
-              <div class="anim d3 flex flex-col gap-2.5 mt-6">
-                <!-- ✎ TAUTAN DEMO — sumber: Lampiran proposal -->
-                <div class="flex items-center gap-3 text-[13px] font-semibold bg-white border-2 border-line rounded-xl px-4 py-3 shadow-[0_3.5px_0_#D5E3DF]">
-                  <i data-lucide="play" class="w-4 h-4 text-brand flex-none"></i>
-                  <a href="https://www.figma.com/proto/EuZUHECe2NfstARm1ohPyC/LaporWarga?node-id=180-80&viewport=79%2C627%2C0.35&t=cyBsVyNcuXjApV8A-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=180%3A80&show-proto-sidebar=1&page-id=0%3A1" target="_blank" rel="noopener" class="text-brand no-underline hover:underline">Buka Prototipe User</a>
-                  <i data-lucide="external-link" class="w-3.5 h-3.5 text-[#9DB4AF] ml-auto"></i>
-                </div>
-                <div class="flex items-center gap-3 text-[13px] font-semibold bg-white border-2 border-line rounded-xl px-4 py-3 shadow-[0_3.5px_0_#D5E3DF]">
-                  <i data-lucide="layout-dashboard" class="w-4 h-4 text-brand flex-none"></i>
-                  <a href="https://www.figma.com/proto/EuZUHECe2NfstARm1ohPyC/LaporWarga?node-id=640-578&viewport=79%2C627%2C0.35&t=cyBsVyNcuXjApV8A-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=640%3A578&show-proto-sidebar=1&page-id=0%3A1" target="_blank" rel="noopener" class="text-brand no-underline hover:underline">Buka Prototipe Admin</a>
-                  <i data-lucide="external-link" class="w-3.5 h-3.5 text-[#9DB4AF] ml-auto"></i>
-                </div>
-              </div>
-            </div>
-
-            <div class="demo-visual relative h-full min-h-0 anim-scale anim d2">
-              <div class="browser-frame absolute inset-0">
-                <div class="h-8 flex-none flex items-center gap-1.5 px-3 bg-[#F0F6F4] border-b border-[var(--border)]">
-                  <span class="browser-dots"><i></i><i></i><i></i></span>
-                  <span class="ml-2 flex-1 flex items-center gap-1.5 bg-white border border-[var(--border)] rounded-full h-[19px] px-2.5 text-[9.5px] text-[#8AA09B] font-medium"><i data-lucide="map-pin" class="w-2.5 h-2.5"></i>laporwarga.id</span>
-                </div>
-                <div class="browser-body">
-                  <img src="public/Beranda%20-%20User.png" alt="Prototipe LaporWarga — halaman beranda" />
-                </div>
-              </div>
-              <div class="float-card anim d4" style="right: 14px; bottom: 34px;">
-                <div class="fc-top"><i data-lucide="list-checks"></i>Perjalanan laporan</div>
-                <div class="fc-main flex items-center gap-1.5 flex-wrap">
-                  <span class="text-[11px] font-semibold px-2.5 py-0.5 rounded-full border-2 border-[#B7D8D3] bg-brand-soft text-brand-deep">Terkirim</span>
-                  <span class="text-[11px] font-semibold px-2.5 py-0.5 rounded-full border-2 border-[#A9C6DC] bg-[#C7DBEA] text-[#1E3A55]">Verifikasi</span>
-                  <span class="text-[11px] font-semibold px-2.5 py-0.5 rounded-full border-2 border-[#F2A876] bg-[#FBBF98] text-[#8A4A10]">Proses</span>
-                  <span class="text-[11px] font-semibold px-2.5 py-0.5 rounded-full border-2 border-[#B4E394] bg-[#D5F6C6] text-[#3E7D2E]">Selesai</span>
-                </div>
-              </div>
-            </div>
+      <section data-chrome="top" data-brand="off" aria-label="Penutup">
+        <div class="closing-page">
+          <div class="closing-logo anim-scale anim">
+            <div class="logo-chip"><img src="public/Logo.png" alt="Logo LaporWarga" /></div>
+            <span>LaporWarga</span>
           </div>
-
-          <!-- Bagian B — penutup (muncul dengan Spasi / Panah) -->
-          <div class="fragment closing-overlay">
-            <div class="closing-logo">
-              <div class="logo-chip"><img src="public/Logo.png" alt="Logo LaporWarga" /></div>
-              <span>LaporWarga</span>
-            </div>
-            <p class="closing-statement">Karena setiap masalah berhak untuk didengar,<br><b>dan setiap laporan berhak mendapat kepastian.</b></p>
-            <div class="closing-rule"></div>
-            <div class="closing-footer">Elektro Expo 2026 · UI/UX LaporWarga · Sons of Figma — SMKN 1 Kandeman</div>
-          </div>
+          <p class="closing-statement anim d1">Karena setiap masalah berhak untuk didengar,<br><b>dan setiap laporan berhak mendapat kepastian.</b></p>
+          <div class="closing-rule anim d2"></div>
+          <h1 class="closing-thanks anim d3">Terima kasih</h1>
+          <p class="closing-question anim d4">Adakah pertanyaan?</p>
+          <div class="closing-footer anim d5">Elektro Expo 2026 · UI/UX LaporWarga · Sons of Figma — SMKN 1 Kandeman</div>
         </div>
       </section>
 

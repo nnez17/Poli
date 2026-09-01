@@ -224,6 +224,17 @@ html, body, .reveal-viewport { background: #E9F1EF; }
   right: auto; left: 50%; top: auto; bottom: -1px;
   transform: translateX(-50%) rotate(135deg);
 }
+.flow-connector-row {
+  display: grid;
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+  column-gap: 8px;
+  min-height: 32px;
+  align-items: center;
+}
+.flow-connector-row .flow-arrow.down {
+  grid-column: 9;
+  justify-self: center;
+}
 .flow-arrow.sm { flex: 0 0 26px; height: auto; align-self: center; padding: 0 2px; }
 .flow-arrow.sm .fa-line { height: 3px; }
 .flow-arrow.sm .fa-line::after { width: 8px; height: 8px; border-width: 3px; }
@@ -310,7 +321,43 @@ html, body, .reveal-viewport { background: #E9F1EF; }
   background: var(--primary); border-radius: 99px;
 }
 
+/* ---------- tautan prototype pada UI design ---------- */
+.prototype-links {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  margin-top: 11px;
+}
+.prototype-links a {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 7px 11px; border: 2px solid var(--line); border-radius: 11px;
+  background: #fff; box-shadow: 0 3px 0 var(--line);
+  color: var(--primary); font-size: 11.5px; font-weight: 700;
+  text-decoration: none; transition: all .15s var(--ease);
+}
+.prototype-links a:hover {
+  color: var(--primary-deep); transform: translateY(1px);
+  box-shadow: 0 2px 0 var(--line);
+}
+.prototype-links a > svg { flex: none; }
+.prototype-link-arrow { width: 13px; height: 13px; color: #9DB4AF; margin-left: 3px; }
+
 /* ---------- overlay penutup (fragment) ---------- */
+.closing-page {
+  position: absolute; inset: 0; z-index: 1;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center;
+  background:
+    radial-gradient(760px 480px at 88% -12%, rgba(255,255,255,.10), transparent 60%),
+    linear-gradient(135deg, var(--navy-deep) 0%, var(--navy) 45%, var(--primary-deep) 100%);
+}
+.closing-thanks {
+  margin: 4px 0 0; color: #fff !important;
+  font-size: 34px !important; line-height: 1.2 !important;
+  font-weight: 700 !important;
+}
+.closing-question {
+  margin: 8px 0 0; color: #E8F1F5;
+  font-size: 20px; font-weight: 500;
+}
 .reveal .fragment.closing-overlay {
   position: absolute; inset: 0; z-index: 40;
   display: flex; flex-direction: column; align-items: center; justify-content: center;
